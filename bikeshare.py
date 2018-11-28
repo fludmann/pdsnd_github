@@ -133,7 +133,7 @@ def trip_duration_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
-
+#since not every city has all the data available the try-except condition was used to eliminate errors
 def user_stats(df):
     """Displays statistics on bikeshare users."""
 
@@ -162,6 +162,7 @@ def user_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
+#loop for asking user if more raw data should be displayed
 def display_data(df):
     rows_viewed = 5
     statement = input('Do you want to see raw data? Enter yes or no. ')
