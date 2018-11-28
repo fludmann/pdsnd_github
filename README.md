@@ -1,15 +1,11 @@
 ### Date created
-Include the date you created this project and README file.
+This project was created on 2018_11_28
 
 ### Project Title
 Replace the Project Title
 
 ### Description
-Describe what your project is about and what it does
-
-### Files used
-Include the files used
+This project is to learn how to use git and github with a real project
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
