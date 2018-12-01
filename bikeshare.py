@@ -8,7 +8,7 @@ CITY_DATA = { 'chicago': 'chicago.csv',
 
 #lists to index the filters and check if the input is valid
 months = ['january', 'february', 'march', 'april', 'may', 'june', 'all']
-days = ['monday', 'tuesday', 'wendsday', 'thrusday', 'friday', 'saturday', 'sunday']
+days = ['monday', 'tuesday', 'wendsday', 'thrusday', 'friday', 'saturday', 'sunday', 'all']
 cities = ['chicago', 'new york city', 'washington']
 def get_filters():
     """
@@ -35,7 +35,7 @@ def get_filters():
 
     while True:
         day = input('Which day would you like to filter, choose "all" if you do not want to filter: ').lower()
-        if day in ['monday', 'tuesday', 'wendsday', 'thrusday', 'friday', 'saturday', 'sunday', 'all']:
+        if day in days:
             break
 
     print('-'*40)
